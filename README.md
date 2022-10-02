@@ -4,5 +4,5 @@
 
 ## Links
 
- - Qiita: https://qiita.com/Hayaaaaaa
+ - Qiita : https://qiita.com/Hayaaaaaa
  - Blog : https://note.com/hayaaaaaa
