@@ -1,3 +1,7 @@
+## Hi there, I'm Hayaaaaaa👋
+
+Nice to meet you. I'm Japanese high schooler and really like developing software. I had worked on robots and games. 
+
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img src="https://github-readme-stats.vercel.app/api?username=hashin2425&count_private=true" />
 </a>
