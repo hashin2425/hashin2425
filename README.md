@@ -8,8 +8,6 @@ Nice to meet you! I'm Japanese high schooler and really like developing software
 ## Others
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=hashin2425&hide_rank=true&count_private=true"/>
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashin2425&layout=compact&count_private=true&langs_count=8"/>
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=hashin2425&count_private=true&card_width=350"/>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashin2425&layout=compact&count_private=true&langs_count=8&card_width=300"/>
 </a>
