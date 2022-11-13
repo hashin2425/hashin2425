@@ -4,7 +4,7 @@ Nice to meet you! I'm Japanese high schooler and really like developing software
 
  - Qiita : https://qiita.com/Hayaaaaaa
  - Blog : https://note.com/hayaaaaaa
- - My commit message rule : https://github.com/hashin2425/SundryFiles_public/tree/main/CommitPrefix
+ - My commit message rule : [/SundryFiles_public/CommitPrefix](https://github.com/hashin2425/SundryFiles_public/tree/main/CommitPrefix)
 ## Others
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
