@@ -3,7 +3,7 @@
  - よく使う： Python, JavaScript, C#
  - 勉強中： Node.js, Vue.js, docker, Unity
  - ポートフォリオ： 
- - 技術ブログ(Qiita)： https://qiita.com/Hayaaaaaa
+ - 技術ブログ(Qiita)： https://qiita.com/hashin2425
   - コミットメッセージ： [/SundryFiles_public/CommitPrefix](https://github.com/hashin2425/SundryFiles_public/tree/main/CommitPrefix)
 
 ## 📈 GitHub Stats
