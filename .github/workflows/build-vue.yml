@@ -1,4 +1,4 @@
-name: Build Vue.js Project
+name: Build and Commit Vue.js Project
 
 on:
   push:
@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: "14"
 
-      - name: Change working directory
-        run: cd ./portfolio/
-
       - name: Install dependencies
         run: npm install
         working-directory: ./portfolio
@@ -29,8 +26,11 @@ jobs:
         run: npm run build
         working-directory: ./portfolio
 
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: dist
-          path: ./portfolio/dist/
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add -A
+          git commit -m "Add dist directory [skip ci]"
+          git push
+        working-directory: ./portfolio
