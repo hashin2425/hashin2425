@@ -26,11 +26,15 @@ jobs:
         run: npm run build
         working-directory: ./portfolio
 
+      - name: Move dist to docs
+        run: mv ./portfolio/dist ../docs
+        working-directory: .
+
       - name: Commit and push
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add -A
-          git commit -m "Add dist directory [skip ci]"
+          git commit -m "Update docs directory [skip ci]"
           git push
-        working-directory: ./portfolio
+        working-directory: .
