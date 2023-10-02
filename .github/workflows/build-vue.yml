@@ -26,6 +26,9 @@ jobs:
         run: npm run build
         working-directory: ./portfolio
 
+      - name: Create docs directory
+        run: mkdir ./docs
+
       - name: Move build to docs
         run: mv ./portfolio/dist/* ./docs/
 
