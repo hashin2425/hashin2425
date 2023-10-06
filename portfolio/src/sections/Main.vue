@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <h1>About</h1>
-    <About></About>
+    <About :sns="sns"></About>
     <h1>Skills</h1>
     <SkillCard :skills="skills" />
     <h1>Projects</h1>
@@ -27,6 +27,12 @@ export default {
   },
   data() {
     return {
+      sns: [
+        { name: "Twitter", url: "https://twitter.com/HashIn2425" },
+        { name: "GitHub", url: "https://github.com/hashin2425" },
+        { name: "Qiita", url: "https://qiita.com/hashin2425" },
+        { name: "AtCoder", url: "https://atcoder.jp/users/HashIn2425" },
+      ],
       projects: [
         {
           name: "ポートフォリオサイト(このサイト)",

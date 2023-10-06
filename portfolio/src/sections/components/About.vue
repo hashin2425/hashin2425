@@ -47,12 +47,20 @@
             <span>年生のHashin2425です。</span>
         </p>
         <p>趣味や大学のプロジェクトで色々な開発を行っております。</p>
+        <p>リンク：<a v-for="s in sns" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer">> {{ s.name }}</a></p>
     </div>
 </template>
 
 <script>
 export default {
-    name: "About-section", data() {
+    name: "About-section",
+    props: {
+        sns: {
+            type: Array,
+            required: true
+        }
+    },
+    data() {
         return {
             myGrade: Math.floor((new Date() - new Date(2023, 4, 1)) / (1000 * 60 * 60 * 24 * 365)) + 1,
             isAboutBoxHover: false
@@ -69,5 +77,13 @@ p {
 #about-div {
     padding: 0.2rem;
     margin: 0.2rem 0;
+}
+
+a {
+    margin: 0.2rem;
+    padding: 0 0.4rem;
+    color: white;
+    border-radius: 0.4rem;
+    background: linear-gradient(45deg, rgb(10, 30, 190), rgb(60, 10, 200));
 }
 </style>
