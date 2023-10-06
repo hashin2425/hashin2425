@@ -20,16 +20,18 @@ export default {
 </script>
 
 <style>
-html{
+html {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 
   font-family: 'Klee One', cursive;
   font-family: 'Noto Sans JP', sans-serif;
+
+  background-color: rgb(245, 245, 245);
 }
 </style>

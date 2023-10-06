@@ -1,7 +1,8 @@
 <template>
   <div id="header">
-    <a href="https://github.com/hashin2425">Hashin2425</a>
+    <span> Hashin2425 Portfolio </span>
   </div>
+  <div id="header-size"></div>
 </template>
 
 <script>
@@ -11,14 +12,23 @@ export default {
 </script>
 
 <style>
-#header{
-    margin: 0;
-    padding: 0.4rem;
-    font-size: 1.4rem;
-    color: white;
-    background-color: rgb(32, 32, 32);
+#header-size {
+  height: 2.2rem;
 }
-a{
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  z-index: 9999;
+
+  user-select: none;
+  margin: 0;
+  padding: 0.4rem;
+  font-size: 1.4rem;
   color: white;
+  background-color: rgb(32, 32, 32);
 }
 </style>

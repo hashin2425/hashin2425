@@ -1,5 +1,8 @@
 <template>
-  <div id="footer">Copyright Hashin2425</div>
+  <div id="footer">
+    <div>Thank you for visiting.</div>
+    <div> Copyright Hashin2425 </div>
+  </div>
 </template>
 
 <script>
@@ -9,9 +12,10 @@ export default {
 </script>
 
 <style>
-#footer{
-    margin: 0;
-    font-size: 1rem;
-    text-align: center;
+#footer {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
 }
 </style>
