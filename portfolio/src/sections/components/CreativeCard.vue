@@ -13,58 +13,60 @@
       </span>
     </span>
   </div>
-  <div v-for="project in projects" :key="project.name">
-    <div v-if="hasCommonItem(selectedTechnologies, project.technologies) || selectedTechnologies.length === 0"
-      class="project-card shadow-box">
-      <div class="image-box">
-        <img v-if="project.image" :src="project.image" alt="画像">
-        <img v-if="!project.image" :src="iconDocument" alt="画像">
-      </div>
-      <div class="table-box">
-        <table>
-          <thead>
-            <tr>
-              <td colspan="2">
-                <div class="project-name"> {{ project.name }} </div>
-                <div> {{ project.about }} </div>
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>期間</th>
-              <td>{{ project.period }}</td>
-            </tr>
-            <tr>
-              <th>開発体制</th>
-              <td>{{ project.team }}</td>
-            </tr>
-            <tr>
-              <th>開発言語・技術</th>
-              <td>
-                <div>
-                  <span class="project-technologies" v-for="technology in project.technologies" :key="technology">
-                    {{ technology }}
-                  </span>
-                </div>
-                <div>{{ project.description }}</div>
-              </td>
-            </tr>
-            <tr>
-              <th>GitHubリポジトリ</th>
-              <td><a :href="project.codeLink" target="_blank">{{ project.codeLink }}</a></td>
-            </tr>
-            <tr>
-              <th>きっかけ</th>
-              <td>{{ project.whyDid }}</td>
-            </tr>
-            <tr>
-              <th>アピールポイント</th>
-              <td>{{ project.appealPoint }}</td>
-            </tr>
+  <div class="projects">
+    <div v-for="project in projects" :key="project.name">
+      <div v-if="hasCommonItem(selectedTechnologies, project.technologies) || selectedTechnologies.length === 0"
+        class="project-card shadow-box">
+        <div class="image-box">
+          <img v-if="project.image" :src="project.image" alt="画像">
+          <img v-if="!project.image" :src="iconDocument" alt="画像">
+        </div>
+        <div class="table-box">
+          <table>
+            <thead>
+              <tr>
+                <td colspan="2">
+                  <div class="project-name"> {{ project.name }} </div>
+                  <div> {{ project.about }} </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>期間</th>
+                <td>{{ project.period }}</td>
+              </tr>
+              <tr>
+                <th>開発体制</th>
+                <td>{{ project.team }}</td>
+              </tr>
+              <tr>
+                <th>開発言語・技術</th>
+                <td>
+                  <div>
+                    <span class="project-technologies" v-for="technology in project.technologies" :key="technology">
+                      {{ technology }}
+                    </span>
+                  </div>
+                  <div>{{ project.description }}</div>
+                </td>
+              </tr>
+              <tr>
+                <th>リンク</th>
+                <td><a :href="project.codeLink" target="_blank">GitHubリポジトリ</a></td>
+              </tr>
+              <tr>
+                <th>きっかけ</th>
+                <td>{{ project.whyDid }}</td>
+              </tr>
+              <tr>
+                <th>アピールポイント</th>
+                <td>{{ project.appealPoint }}</td>
+              </tr>
 
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -120,9 +122,17 @@ export default {
 </script>
 
 <style scoped>
+.projects {
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 .project-card {
   display: flex;
-  width: 100%;
+  min-width: 35rem;
   background-color: white;
   border-radius: 1rem;
   padding: 0.2rem;

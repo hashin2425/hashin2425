@@ -47,7 +47,12 @@
             <span>年生のHashin2425です。</span>
         </p>
         <p>趣味や大学のプロジェクトで色々な開発を行っております。</p>
-        <p>リンク：<a v-for="s in sns" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer">> {{ s.name }}</a></p>
+        <p>
+            リンク：
+            <a v-for="s in sns" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer" class="shadow-box link-icon">
+                > {{ s.name }}
+            </a>
+        </p>
     </div>
 </template>
 
@@ -85,5 +90,10 @@ a {
     color: white;
     border-radius: 0.4rem;
     background: linear-gradient(45deg, rgb(10, 30, 190), rgb(60, 10, 200));
+}
+
+.link-icon{
+    display: inline-block;
+    white-space: nowrap;
 }
 </style>

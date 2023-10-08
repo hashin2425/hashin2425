@@ -1,5 +1,5 @@
 <template>
-  <div id="header">
+  <div id="header" class="shadow-box">
     <span> Hashin2425 Portfolio </span>
   </div>
   <div id="header-size"></div>
@@ -13,7 +13,7 @@ export default {
 
 <style>
 #header-size {
-  height: 2.2rem;
+  height: 2.5rem;
 }
 
 #header {

@@ -23,11 +23,13 @@ export default {
 html {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 
   font-family: 'Klee One', cursive;
   font-family: 'Noto Sans JP', sans-serif;
