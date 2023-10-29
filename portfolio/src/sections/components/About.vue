@@ -49,7 +49,8 @@
         <p>趣味や大学のプロジェクトで色々な開発を行っております。</p>
         <p>
             リンク：
-            <a v-for="s in sns" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer" class="shadow-box link-icon">
+            <a v-for="s in sns" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer"
+                class="shadow-box link-icon">
                 > {{ s.name }}
             </a>
         </p>
@@ -80,6 +81,8 @@ p {
 }
 
 #about-div {
+    background-color: white;
+    border-radius: 1rem;
     padding: 0.2rem;
     margin: 0.2rem 0;
 }
@@ -92,7 +95,7 @@ a {
     background: linear-gradient(45deg, rgb(10, 30, 190), rgb(60, 10, 200));
 }
 
-.link-icon{
+.link-icon {
     display: inline-block;
     white-space: nowrap;
 }

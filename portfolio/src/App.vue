@@ -33,7 +33,5 @@ body {
 
   font-family: 'Klee One', cursive;
   font-family: 'Noto Sans JP', sans-serif;
-
-  background-color: rgb(245, 245, 245);
 }
 </style>

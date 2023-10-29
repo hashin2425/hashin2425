@@ -7,12 +7,14 @@
     <h1>Projects</h1>
     <CreativeCard :projects="projects" />
   </div>
+  <TriangleBackground></TriangleBackground>
 </template>
 
 <script>
 import CreativeCard from "./components/CreativeCard.vue";
 import SkillCard from "./components/SkillCard.vue";
 import About from "./components/About.vue";
+import TriangleBackground from "./components/TriangleBackground.vue";
 
 function calculateAge(year, month) {
   return Math.floor((new Date() - new Date(year, month, 1)) / (1000 * 60 * 60 * 24 * 365))
@@ -24,6 +26,7 @@ export default {
     CreativeCard,
     SkillCard,
     About,
+    TriangleBackground
   },
   data() {
     return {
