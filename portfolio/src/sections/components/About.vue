@@ -92,6 +92,7 @@ a {
     padding: 0 0.4rem;
     color: white;
     border-radius: 0.4rem;
+    font-size: 1rem;
     background: linear-gradient(45deg, rgb(10, 30, 190), rgb(60, 10, 200));
 }
 
