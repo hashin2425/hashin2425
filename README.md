@@ -3,8 +3,7 @@
  - 文系大学生
  - 趣味で様々なことを勉強している個人開発者
  - よく使う： Python, JavaScript, C#
- - 勉強中： Node.js, Vue.js, docker, Unity
- - コミットメッセージ： [/SundryFiles_public/CommitPrefix](https://github.com/hashin2425/SundryFiles_public/tree/main/CommitPrefix)
+ - 勉強中： Vue.js, Unity, Microsoft Azure
 
 ## 👀 Readme
 
