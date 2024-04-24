@@ -24,6 +24,7 @@ html {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: #f5f5f5;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
   padding: 0;
   width: 100%;
 
-  font-family: 'Klee One', cursive;
   font-family: 'Noto Sans JP', sans-serif;
+  color: #404040;
 }
 </style>
