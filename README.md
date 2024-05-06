@@ -1,14 +1,14 @@
 ## 🌱 Hi there
 
- - 文系大学生
- - 趣味で様々なことを勉強している個人開発者
- - よく使う： Python, JavaScript, C#
- - 勉強中： Vue.js, Unity, Microsoft Azure
+- 文系大学生
+- 個人開発者
+- よく使う： Python, JavaScript, C#
+- 勉強中： Vue.js, Unity, Microsoft Azure
 
 ## 👀 Readme
 
- - ポートフォリオ： https://hashin2425.github.io/hashin2425/
- - 技術ブログ(Qiita)： https://qiita.com/hashin2425
+- ポートフォリオ： https://hashin.net/
+- 技術ブログ(Qiita)： https://qiita.com/hashin2425
 
 ## 📈 GitHub Stats
 
