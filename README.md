@@ -1,9 +1,8 @@
 ## 🌱 Hi there
 
-- 文系大学生
-- 個人開発者
-- よく使う： Python, JavaScript, C#
-- 勉強中： Vue.js, Unity, Microsoft Azure
+経済学部 2年 / 個人開発者
+
+最近はWebフロントエンド (Vue.js) を触ることが多いですが、サーバーサイドも組み込みもやっています。
 
 ## 👀 Readme
 
