@@ -9,6 +9,8 @@
 
 ### 📈 GitHub Stats
 
+[![wakatime](https://wakatime.com/badge/user/b36bdd48-c711-4703-a30c-fd80b88422cd.svg)](https://wakatime.com/@b36bdd48-c711-4703-a30c-fd80b88422cd)
+
 <p align="left">
   <img alt="Top Langs" width="44.5%" src="https://github-readme-stats-vercel-wea9.vercel.app/api/top-langs/?username=hashin2425&langs_count=100&layout=compact&show_icons=true&hide=jupyter%20notebook,HTML,HLSL,ShaderLab,CSS,Sass" />
   
