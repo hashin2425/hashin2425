@@ -3,6 +3,7 @@
 - ポートフォリオ： https://hashin.net/
 - 技術ブログ(Qiita)： https://qiita.com/hashin2425
 
+<!--
 ### 📈 GitHub Stats
 
 [![wakatime](https://wakatime.com/badge/user/b36bdd48-c711-4703-a30c-fd80b88422cd.svg)](https://wakatime.com/@b36bdd48-c711-4703-a30c-fd80b88422cd)
@@ -12,3 +13,4 @@
   
   <img alt="github stats" width="53.3%" src="https://github-readme-stats-vercel-wea9.vercel.app/api?username=hashin2425&show_icons=ture&count_private=true&include_all_commits=true" />
 </p>
+-->
